@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/add payment.css">
+  </head>
+  <body>
+    <div> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+            <img src="images/loyola polytech.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            loyola polytechnic college pulivendula
+          </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="showing.html">Track</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="addpayment.html">ADD <span class="sr-only">(current)</span></a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">LOGOUT</a>
+              </li>  
+          </ul>
+        </div>
+        
+    <marquee class="marqueetag">
+        Please once again check your data before submitting button because we cannot change anything after submit.
+        </marquee>
+      </nav>
+    </div>
+
+    <div class="datedisplayed">
+      <p id="date-container" ></p> <!-- This is where the date and time will be displayed -->
+      </div>
+      
+    <div>
+        <div class="main-block">
+        <form action="https://script.google.com/macros/s/AKfycbxw-uoUjU13tQ6A04gciSKYqLIFPmgcSIDoqShsO_K4xXq2a9uzDLOI6jZq85rQs3KweQ/exec">
+        <h1>Create a account for Fee payment </h1>
+        <fieldset>
+        <legend>
+        <h3>Student Details</h3>
+        </legend>
+        <div class="account-details">
+        <div><label>PIN No*</label><input type="text" name="name" required></div>
+        <div><label>Branch*</label><input type="text" name="name" required></div>
+        <div><label>Repeat PIN No*</label><input type="text" name="name" required></div>
+        <div><label>Year*</label><input type="text" name="name" required></div>
+        </div>
+        </fieldset>
+        <fieldset>
+        <legend>
+        <h3>Personal Details</h3>
+        </legend>
+        <div class="personal-details">
+        <div>
+        <div><label>Name*</label><input type="text" name="name" required></div>
+        <div><label>Phone*</label><input type="text" name="name" required></div>
+        <div><label>Street</label><input type="text" name="name"></div>
+        <div><label>City*</label><input type="text" name="name" required></div>
+        <div><label>State*</label><input type="text" name="name" required></div>
+        <div><label>PIN Code*</label><input type="text" name="name"></div>
+        <div>
+        <label>Country*</label> 
+        <select>
+        <option value="">select</option>
+        <option value="Armenia">Armenia</option>
+        <option value="Russia">India</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        </select>
+        </div>
+        </div>
+        <div>
+        <div>
+        <label>Gender*</label>
+        <select>
+          <option value="">Select</option>
+          <option value="Armenia">Male</option>
+          <option value="Russia">Female</option> 
+          <option value="Russia">Others</option> 
+          </select>  
+         </div>
+        <div class="birthdate">
+        <label>Birthdate*</label>
+        <div class="bdate-block">
+        <select class="day" required>
+        <option value="">D</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        </select>
+        <select class="mounth" required>
+        <option value="">select mounth</option>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+        </select>
+        <input type="text" name="name" placeholder="YYR" required>
+        </div>
+        </div>
+        <div>
+        <label>Nationality*</label> 
+        <select required>
+        <option value="">Select</option>
+        <option value="Armenian">Armenian</option>
+        <option value="Russian">Russian</option>
+        <option value="German">German</option>
+        <option value="French">India</option>
+        <option value="American">American</option>
+        <option value="English">English</option>
+        </select>
+        </div>
+       </div>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+            <h3>Amount pay</h3>
+            </legend>
+            <div class="personal-details">
+            <div>
+            <div><label>Add Amount*</label><input type="text" name="name" required></div> 
+            </div>
+            </fieldset>
+        <fieldset>
+        <legend>
+        <h3>Terms and Mailing</h3>
+        </legend>
+        <div class="terms-mailing">
+        <div class="checkbox">
+        <input type="checkbox" name="checkbox"><span>I accept the <a href="https://github.com/sdileep99">Privacy Policy for loyola</a></span>
+        
+        </div>
+        <div class="checkbox">
+        <input type="checkbox" name="checkbox"><span>I am ready for joining your colloge</span>
+        </div>
+        </fieldset>
+        <button type="submit" href="/">Submit</button>
+        </form>
+        </div> 
+    </div>
+    <div> 
+    
+    <script src="js/js.js"></script>
+  </body>
+</html>
+
+
